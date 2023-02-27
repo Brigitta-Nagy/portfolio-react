@@ -1,0 +1,125 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+ }
+.projects{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+  
+}
+
+.project_card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 750px;
+  height: 650px;
+  margin: 30px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  overflow: hidden;
+  background-color: #fcf9f7;
+  transition: 0.5s;
+  border-right: 2px solid pink;
+  border-bottom: 2px solid pink;
+  
+ 
+}
+.project_img{
+  /* background-position:center; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 70%;
+  min-width:100%;
+ 
+  
+}
+.project_img1{
+  background-image: url(../../static/weather-app-min.png);
+}
+.project_img2{
+  background-image: url(../../static/ohmyfood-min.png);
+ 
+  background-size: contain;
+  
+  
+}
+.project_img3{
+  background-image: url(../../static/meet_app-min.png);
+  /* background-position:top;  */
+  background-size: contain;
+ 
+}
+.project_img4{
+  background-image: url(../../static/todo-app-min.png);
+
+}
+
+.project_content_wrapper{
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  width: 100%;
+  padding: 0 30px;
+  text-align: left;
+  background-color: #f8f8f8;
+  
+}
+/* .project_tech{
+  word-spacing: 5px;
+  
+} */
+.project_title{
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  margin:20px 0;
+}
+.project_description{
+  line-height: 1.5;
+  color: rgb(78, 78, 78);
+}
+
+.iconsContainer a{
+  color: black;
+  padding: 10px;
+
+  
+}
+.iconsContainer{
+  margin-right: 10px;
+  text-align: right;
+
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .project_title{
+    display: block;
+    font-size: 15px;
+  }
+  .project_tech{
+    font-weight: 400 ;
+  }
+  .project_description{
+    width: 90%
+  }
+  .iconsContainer{
+    text-align: left;
+    margin-top: 15px;
+  
+  }
+  .project_img{
+    background-position: center;
+  }
+}

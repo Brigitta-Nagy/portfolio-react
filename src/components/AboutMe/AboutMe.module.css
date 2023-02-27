@@ -1,0 +1,70 @@
+.about{
+    padding: 55px;
+   
+}
+
+.aboutSection{
+  display: flex;
+  justify-content: center;
+  
+   
+}
+
+.aboutCard{
+  min-height: 40vh;
+  max-width: 80%;
+  box-shadow: rgba(0, 0, 0, 0.5) 5px 3px 8px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid pink;
+  border-bottom: 2px solid pink;
+  transition: .2s ease-in-out;
+  padding: 50px;
+
+}
+
+.aboutCard:hover{
+  transform: scale(1.02);
+  
+}
+.aboutCard h1{    
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 800; 
+  font-size: 30px;
+  
+}
+.about P{
+  margin: 20px;
+  max-width: 650px;
+  line-height: 1.5;
+  color: rgb(105, 104, 104);
+  font-size: 18px;
+}
+.aboutCard button{
+  background-color: rgb(105, 105, 105);
+  color: whitesmoke;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid pink;
+  box-shadow: 2px 2px 0 rgb(55, 54, 54);
+  min-width: 30%;
+  margin: 0 auto 10px;
+  font-weight: 600;
+}
+.button_link{
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+@media only screen and (max-width: 600px) {
+  .about {
+    padding:50px 0px;
+  }
+  .about p{
+    margin: 15px 0;
+    font-size: 15px;
+  }
+}
