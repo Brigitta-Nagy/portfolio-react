@@ -39,7 +39,7 @@ function ToTop() {
       style={{position:"fixed", 
               bottom: "10px",
               height: "50px",
-              right: "10px",
+              right: "30px",
               fontSize:"35px",
               color:"#5d4954" }}/>
        
