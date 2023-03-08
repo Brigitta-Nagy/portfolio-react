@@ -78,7 +78,7 @@ function Projects() {
               <a href="https://github.com/Brigitta-Nagy/Meet-App-Mern" target="_blank" rel="noreferrer" title="link to Github page">
                 <FaGithub size={25} />
               </a> 
-              <a href="" rel="noreferrer" target="_blank" title="link to project page">
+              <a href="https://github.com/Brigitta-Nagy/Meet-App-Mern"  rel="noreferrer" target="_blank" title="link to project page">
                 <BsGlobe size={25} />
               </a>
               </div>

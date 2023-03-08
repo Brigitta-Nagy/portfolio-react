@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './AboutMe.module.css'
 import {motion as m} from 'framer-motion'
-import AOS from 'aos'
+// import AOS from 'aos'
 import 'aos/dist/aos.css'
 import CV from '../../static/CV.pdf'
 
